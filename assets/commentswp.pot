@@ -1,0 +1,330 @@
+# Copyright (C) 2023 CommentsWP
+# This file is distributed under the same license as the CommentsWP package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CommentsWP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Slava Abakumov <slava@commentswp.com>\n"
+"POT-Creation-Date: 2023-05-07 21:36+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/Admin/Admin.php:123, src/Admin/Admin.php:156, src/Admin/AdminBar.php:44, src/Admin/Pages/Dashboard/Dashboard.php:197
+msgid "Dashboard"
+msgstr ""
+
+#: src/Admin/Admin.php:155, src/Admin/ScreenOptions.php:155
+msgid "Comments Dashboard"
+msgstr ""
+
+#: src/Admin/AdminBar.php:47
+msgid "CommentsWP Dashboard"
+msgstr ""
+
+#: src/Admin/ScreenOptions.php:177
+msgid "Apply"
+msgstr ""
+
+#. translators: Time difference between two dates, in years. %d - number of years.
+#: src/Helpers/HumanDate.php:195
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Time difference between two dates, in months. %d - number of months.
+#. translators: %d - number of months with comments in this year.
+#: src/Helpers/HumanDate.php:200, src/Admin/Pages/Dashboard/Cards/TotalByPeriodTable.php:241
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Time difference between two dates, in weeks. %d - number of weeks.
+#. translators: %d - number of weeks with comments in this year.
+#: src/Helpers/HumanDate.php:205, src/Admin/Pages/Dashboard/Cards/TotalByPeriodTable.php:229
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Time difference between two dates, in days. %d - number of days.
+#: src/Helpers/HumanDate.php:210
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Time difference between two dates, in hours. %d - number of hours.
+#: src/Helpers/HumanDate.php:215
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Time difference between two dates, in minutes. %d - number of minutes.
+#: src/Helpers/HumanDate.php:220
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Time difference between two dates, in seconds. %d - number of seconds.
+#: src/Helpers/HumanDate.php:225
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/Pages/Dashboard/Dashboard.php:200
+msgid "Comment Type"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Dashboard.php:201
+msgid "Comment"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Dashboard.php:207
+msgid "Applied to all cards"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Dashboard.php:222
+msgid "Applied to tables only"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Filters.php:277
+msgid "Last 24 hours"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Filters.php:278
+msgid "Last 7 Days"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Filters.php:279
+msgid "Last 14 Days"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Filters.php:280
+msgid "Last 30 Days"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Filters.php:281
+msgid "Last 90 Days"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Filters.php:282
+msgid "All Time"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Filters.php:302
+msgid "5 items"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Filters.php:303
+msgid "10 items"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Filters.php:304
+msgid "15 items"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/ApprovedNumberCard.php:36
+msgid "Approved"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/AverageTimeToFirstCommentCard.php:43
+msgid "Average Time To First Comment"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/AverageTimeToFirstCommentCard.php:51, src/Admin/Pages/Dashboard/Cards/FastestTimeToFirstComment.php:51, src/Admin/Pages/Dashboard/Cards/LoggedInOutNumberCard.php:42, src/Admin/Pages/Dashboard/Cards/PingTrackbacksNumberCard.php:42, src/Admin/Pages/Dashboard/Cards/PostsCommentsNumberCard.php:42, src/Admin/Pages/Dashboard/Cards/TopLevelRepliesNumberCard.php:42, src/Admin/Pages/Dashboard/Cards/TotalAnomaliesTable.php:51, src/Admin/Pages/Dashboard/Cards/TotalByPeriodTable.php:57, src/Admin/Pages/Dashboard/Cards/TotalByPersonTable.php:50, src/Admin/Pages/Dashboard/Cards/Templates/CardSmallIconTotal.php:46
+msgid "Learn More"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/AverageTimeToFirstCommentCard.php:82, src/Admin/Pages/Dashboard/Cards/FastestTimeToFirstComment.php:82
+msgid "N/A"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/FastestTimeToFirstComment.php:43
+msgid "Fastest Time To First Comment"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/LoggedInOutNumberCard.php:33
+msgid "Logged In"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/LoggedInOutNumberCard.php:34
+msgid "Logged Out"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/LoggedInOutNumberCard.php:96, src/Admin/Pages/Dashboard/Cards/TopLevelRepliesNumberCard.php:147
+msgid "See All Comments"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/LoggedInOutNumberCard.php:147
+msgid "See Comments By Logged Out Users"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/PendingNumberCard.php:36
+msgid "Pending"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/PingTrackbacksNumberCard.php:33
+msgid "Pingbacks"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/PingTrackbacksNumberCard.php:34
+msgid "Trackbacks"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/PingTrackbacksNumberCard.php:96
+msgid "See Pingbacks"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/PingTrackbacksNumberCard.php:141
+msgid "See Trackbacks"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/PostsCommentsNumberCard.php:33
+msgid "With Comments"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/PostsCommentsNumberCard.php:34
+msgid "No Comments"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/PostsCommentsNumberCard.php:110
+msgid "Posts with comments"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/PostsCommentsNumberCard.php:161
+msgid "Posts without comments"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/SpamNumberCard.php:36
+msgid "Spam"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/SuggestFeaturePlaceholder.php:28, src/Admin/Pages/Dashboard/Cards/SuggestFeaturePlaceholder.php:61
+msgid "Suggest a Feature"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/SuggestFeaturePlaceholder.php:59
+msgid "Do you have an idea or suggestion for CommentsWP? If you have thoughts on features or improvements - please reach out!"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/SuggestFeaturePlaceholder.php:60
+msgid "Any feedback and insights from actual users is appreciated."
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TopLevelRepliesNumberCard.php:33
+msgid "Top Level"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TopLevelRepliesNumberCard.php:34
+msgid "Replies"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TopLevelRepliesNumberCard.php:102
+msgid "See Top Level Comments"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalAnomaliesTable.php:44
+msgid "Anomalies"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalAnomaliesTable.php:172
+msgid "Unique Value"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalAnomaliesTable.php:173, src/Admin/Pages/Dashboard/Cards/TotalByPeriodTable.php:187, src/Admin/Pages/Dashboard/Cards/TotalByPersonTable.php:160
+msgid "Comments"
+msgstr ""
+
+#. translators: %s - comma-separated list of other names.
+#: src/Admin/Pages/Dashboard/Cards/TotalAnomaliesTable.php:196
+msgid "Last 10 items: %s"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalAnomaliesTable.php:206
+msgid "Filter comments"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalAnomaliesTable.php:180, src/Admin/Pages/Dashboard/Cards/TotalByPeriodTable.php:199, src/Admin/Pages/Dashboard/Cards/TotalByPersonTable.php:167
+msgid "No data to display."
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalAnomaliesTable.php:235
+msgid "IP to Emails"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalAnomaliesTable.php:238
+msgid "Email to IPs"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalByPeriodTable.php:50
+msgid "Total by Time Period"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalByPeriodTable.php:186
+msgid "Year"
+msgstr ""
+
+#. translators: %1$d - week number, %1$s - week date range.
+#: src/Admin/Pages/Dashboard/Cards/TotalByPeriodTable.php:283
+msgid "Week %1$d: %2$s"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalByPeriodTable.php:324
+msgid "Group by Year"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalByPeriodTable.php:327
+msgid "Group by Month"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalByPeriodTable.php:330
+msgid "Group by Week"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalByPersonTable.php:43
+msgid "Total by User"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalByPersonTable.php:159
+msgid "Name"
+msgstr ""
+
+#. translators: %s - comma-separated list of other names.
+#: src/Admin/Pages/Dashboard/Cards/TotalByPersonTable.php:183
+msgid "Known as: <code>%s</code>"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalByPersonTable.php:197
+msgid "Filter by user"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalByPersonTable.php:225
+msgid "Group by Email"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TotalByPersonTable.php:228
+msgid "Group by IP"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/TrashNumberCard.php:36
+msgid "Trash"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/Feature/HasMenu.php:95
+msgid "Menu"
+msgstr ""
+
+#: src/Admin/Pages/Dashboard/Cards/Templates/CardSmall.php:63, src/Admin/Pages/Dashboard/Cards/Templates/CardSmallIconTotal.php:77
+msgid "See more"
+msgstr ""
